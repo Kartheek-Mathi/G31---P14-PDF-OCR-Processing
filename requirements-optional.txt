@@ -1,0 +1,4 @@
+# Optional adapters; these integrations were not live-tested in the artifact run.
+# Install and validate separately; update the evaluation log after testing.
+neo4j>=5.26,<7
+docling>=2,<3

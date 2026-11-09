@@ -1,0 +1,63 @@
+{"id": "q40-0", "expected": "Cedar40 Team", "answers": ["Cedar40 Team"], "status": "supported", "correct": true}
+{"id": "q40-1", "expected": "Granite40 Archive", "answers": ["Granite40 Archive"], "status": "supported", "correct": true}
+{"id": "q40-2", "expected": "Dual40 Policy", "answers": ["Dual40 Policy"], "status": "supported", "correct": true}
+{"id": "q40-3", "expected": "Shield40 Protocol", "answers": ["Shield40 Protocol"], "status": "supported", "correct": true}
+{"id": "q40-4", "expected": "Assurance40 Council", "answers": ["Assurance40 Council"], "status": "supported", "correct": true}
+{"id": "q40-5", "expected": "70 days", "answers": ["70 days"], "status": "supported", "correct": true}
+{"id": "q40-6", "expected": null, "answers": [], "status": "unsupported_question", "correct": true}
+{"id": "q41-0", "expected": "Cedar41 Team", "answers": ["Cedar41 Team"], "status": "supported", "correct": true}
+{"id": "q41-1", "expected": "Granite41 Archive", "answers": ["Granite41 Archive"], "status": "supported", "correct": true}
+{"id": "q41-2", "expected": "Dual41 Policy", "answers": ["Dual41 Policy"], "status": "supported", "correct": true}
+{"id": "q41-3", "expected": "Shield41 Protocol", "answers": ["Shield41 Protocol"], "status": "supported", "correct": true}
+{"id": "q41-4", "expected": "Assurance41 Council", "answers": ["Assurance41 Council"], "status": "supported", "correct": true}
+{"id": "q41-5", "expected": "71 days", "answers": ["71 days"], "status": "supported", "correct": true}
+{"id": "q41-6", "expected": null, "answers": [], "status": "unsupported_question", "correct": true}
+{"id": "q42-0", "expected": "Cedar42 Team", "answers": ["Cedar42 Team"], "status": "supported", "correct": true}
+{"id": "q42-1", "expected": "Granite42 Archive", "answers": ["Granite42 Archive"], "status": "supported", "correct": true}
+{"id": "q42-2", "expected": "Dual42 Policy", "answers": ["Dual42 Policy"], "status": "supported", "correct": true}
+{"id": "q42-3", "expected": "Shield42 Protocol", "answers": ["Shield42 Protocol"], "status": "supported", "correct": true}
+{"id": "q42-4", "expected": "Assurance42 Council", "answers": ["Assurance42 Council"], "status": "supported", "correct": true}
+{"id": "q42-5", "expected": "72 days", "answers": ["72 days"], "status": "supported", "correct": true}
+{"id": "q42-6", "expected": null, "answers": [], "status": "unsupported_question", "correct": true}
+{"id": "q43-0", "expected": "Cedar43 Team", "answers": ["Cedar43 Team"], "status": "supported", "correct": true}
+{"id": "q43-1", "expected": "Granite43 Archive", "answers": ["Granite43 Archive"], "status": "supported", "correct": true}
+{"id": "q43-2", "expected": "Dual43 Policy", "answers": ["Dual43 Policy"], "status": "supported", "correct": true}
+{"id": "q43-3", "expected": "Shield43 Protocol", "answers": ["Shield43 Protocol"], "status": "supported", "correct": true}
+{"id": "q43-4", "expected": "Assurance43 Council", "answers": ["Assurance43 Council"], "status": "supported", "correct": true}
+{"id": "q43-5", "expected": "73 days", "answers": ["73 days"], "status": "supported", "correct": true}
+{"id": "q43-6", "expected": null, "answers": [], "status": "unsupported_question", "correct": true}
+{"id": "q44-0", "expected": "Cedar44 Team", "answers": ["Cedar44 Team"], "status": "supported", "correct": true}
+{"id": "q44-1", "expected": "Granite44 Archive", "answers": ["Granite44 Archive"], "status": "supported", "correct": true}
+{"id": "q44-2", "expected": "Dual44 Policy", "answers": ["Dual44 Policy"], "status": "supported", "correct": true}
+{"id": "q44-3", "expected": "Shield44 Protocol", "answers": ["Shield44 Protocol"], "status": "supported", "correct": true}
+{"id": "q44-4", "expected": "Assurance44 Council", "answers": ["Assurance44 Council"], "status": "supported", "correct": true}
+{"id": "q44-5", "expected": "74 days", "answers": ["74 days"], "status": "supported", "correct": true}
+{"id": "q44-6", "expected": null, "answers": [], "status": "unsupported_question", "correct": true}
+{"id": "q45-0", "expected": "Cedar45 Team", "answers": ["Cedar45 Team"], "status": "supported", "correct": true}
+{"id": "q45-1", "expected": "Granite45 Archive", "answers": ["Granite45 Archive"], "status": "supported", "correct": true}
+{"id": "q45-2", "expected": "Dual45 Policy", "answers": ["Dual45 Policy"], "status": "supported", "correct": true}
+{"id": "q45-3", "expected": "Shield45 Protocol", "answers": ["Shield45 Protocol"], "status": "supported", "correct": true}
+{"id": "q45-4", "expected": "Assurance45 Council", "answers": ["Assurance45 Council"], "status": "supported", "correct": true}
+{"id": "q45-5", "expected": "75 days", "answers": ["75 days"], "status": "supported", "correct": true}
+{"id": "q45-6", "expected": null, "answers": [], "status": "unsupported_question", "correct": true}
+{"id": "q46-0", "expected": "Cedar46 Team", "answers": ["Cedar46 Team"], "status": "supported", "correct": true}
+{"id": "q46-1", "expected": "Granite46 Archive", "answers": ["Granite46 Archive"], "status": "supported", "correct": true}
+{"id": "q46-2", "expected": "Dual46 Policy", "answers": ["Dual46 Policy"], "status": "supported", "correct": true}
+{"id": "q46-3", "expected": "Shield46 Protocol", "answers": ["Shield46 Protocol"], "status": "supported", "correct": true}
+{"id": "q46-4", "expected": "Assurance46 Council", "answers": ["Assurance46 Council"], "status": "supported", "correct": true}
+{"id": "q46-5", "expected": "76 days", "answers": ["76 days"], "status": "supported", "correct": true}
+{"id": "q46-6", "expected": null, "answers": [], "status": "unsupported_question", "correct": true}
+{"id": "q47-0", "expected": "Cedar47 Team", "answers": ["Cedar47 Team"], "status": "supported", "correct": true}
+{"id": "q47-1", "expected": "Granite47 Archive", "answers": ["Granite47 Archive"], "status": "supported", "correct": true}
+{"id": "q47-2", "expected": "Dual47 Policy", "answers": ["Dual47 Policy"], "status": "supported", "correct": true}
+{"id": "q47-3", "expected": "Shield47 Protocol", "answers": ["Shield47 Protocol"], "status": "supported", "correct": true}
+{"id": "q47-4", "expected": "Assurance47 Council", "answers": ["Assurance47 Council"], "status": "supported", "correct": true}
+{"id": "q47-5", "expected": "77 days", "answers": ["77 days"], "status": "supported", "correct": true}
+{"id": "q47-6", "expected": null, "answers": [], "status": "unsupported_question", "correct": true}
+{"id": "q48-0", "expected": "Cedar48 Team", "answers": ["Cedar48 Team"], "status": "supported", "correct": true}
+{"id": "q48-1", "expected": "Granite48 Archive", "answers": ["Granite48 Archive"], "status": "supported", "correct": true}
+{"id": "q48-2", "expected": "Dual48 Policy", "answers": ["Dual48 Policy"], "status": "supported", "correct": true}
+{"id": "q48-3", "expected": "Shield48 Protocol", "answers": ["Shield48 Protocol"], "status": "supported", "correct": true}
+{"id": "q48-4", "expected": "Assurance48 Council", "answers": ["Assurance48 Council"], "status": "supported", "correct": true}
+{"id": "q48-5", "expected": "78 days", "answers": ["78 days"], "status": "supported", "correct": true}
+{"id": "q48-6", "expected": null, "answers": [], "status": "unsupported_question", "correct": true}

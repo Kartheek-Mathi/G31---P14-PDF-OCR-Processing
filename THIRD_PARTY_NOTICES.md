@@ -1,0 +1,7 @@
+# Reused components and original project work
+
+The generated project-specific code comprises the workflow ontology, deterministic fixture generator, page/evidence data model, extraction wrappers, BiLSTM task model and training loop, retrieval planner and graph boost, FastAPI routes, browser interface, tests, evaluation scripts, and report/demo build scripts. It was produced with AI assistance in response to the project request. Individual team authorship and subsequent modifications must be recorded truthfully in `PROJECT_METADATA.json`.
+
+Third-party libraries are imported, not copied into the repository: PyTorch, scikit-learn, NumPy, pypdf, pypdfium2/PDFium, FastAPI, Starlette, Pydantic, Uvicorn, python-multipart, Pillow, ReportLab, pytest, httpx, Playwright, matplotlib, and python-pptx. Optional packages are Neo4j's Python driver and Docling. System tools used are Tesseract, Chromium, TeX/IEEEtran, and LibreOffice. Their license notices remain in their installed distributions; redistribution must retain any required notices. No third-party font files, external pretrained weights, source PDFs, or commercial model credentials are bundled.
+
+The small `.pt` checkpoint contains this project's task-trained weights; `torch.load(..., weights_only=True)` is used. The classical model uses JSON and numeric NPZ data rather than untrusted pickle. Synthetic PDF content and its gold labels are newly generated fixtures, not copied from a public benchmark. The original course lecture deck is not redistributed in the public repository package.

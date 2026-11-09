@@ -1,0 +1,11 @@
+# Versions exercised in the artifact environment (Python 3.13.5, Linux CPU).
+fastapi==0.128.2
+uvicorn==0.48.0
+python-multipart==0.0.29
+pypdf==5.9.0
+pypdfium2==5.8.0
+numpy==2.3.5
+scikit-learn==1.8.0
+torch==2.10.0
+Pillow==12.3.0
+reportlab==4.4.9

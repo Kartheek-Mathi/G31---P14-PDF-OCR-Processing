@@ -1,0 +1,13 @@
+{
+  "report_pages": 8,
+  "demo_pdf_pages": 10,
+  "editable_slides": 10,
+  "report_unresolved_references": false,
+  "report_overfull_boxes": 0,
+  "python_compileall": "passed",
+  "javascript_syntax": "passed",
+  "shell_syntax": "passed",
+  "manual_render_review": "All report pages and all ten slides rendered; corrected overflowing slide titles and inspected updated slides.",
+  "remote_github_publish": "not performed; no authenticated remote available",
+  "administrative_gate": "not ready: real group, complete roster, contributions, demo date, repository URL and manual attestations required"
+}

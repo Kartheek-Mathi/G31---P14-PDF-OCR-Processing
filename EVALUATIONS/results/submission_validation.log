@@ -1,0 +1,39 @@
+{
+  "ready_for_submission": false,
+  "checks": [
+    {
+      "check": "Report page count",
+      "value": 8,
+      "pass": true
+    },
+    {
+      "check": "Demo PDF slide count",
+      "value": 10,
+      "pass": true
+    },
+    {
+      "check": "Editable deck slide count",
+      "value": 10,
+      "pass": true
+    },
+    {
+      "check": "Saved automated test run",
+      "value": 62,
+      "pass": true
+    }
+  ],
+  "blocking_issues": [
+    "Actual positive integer group_number has not been supplied.",
+    "A real, published GitHub repository URL is required.",
+    "Assigned demo_date is missing; enter YYYY-MM-DD from the course schedule.",
+    "Team attestation pending: team_roster_verified.",
+    "Team attestation pending: contributions_verified.",
+    "Team attestation pending: course_ai_policy_reviewed.",
+    "Team attestation pending: repository_access_verified.",
+    "Member Jatin Kumar Reddimalla: contribution is missing.",
+    "Member Jatin Kumar Reddimalla: evidence is missing.",
+    "Report still identifies itself as a review draft; rebuild after metadata verification.",
+    "The final slide does not contain the actual repository URL."
+  ],
+  "notice": "Repository access, contributions and course-policy compliance require truthful manual verification; this script does not certify them."
+}

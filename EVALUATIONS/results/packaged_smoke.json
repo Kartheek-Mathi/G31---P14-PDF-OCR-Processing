@@ -1,0 +1,12 @@
+{
+  "archive_integrity": "passed",
+  "manifest_hashes_verified": 167,
+  "fresh_extracted_directory": "passed",
+  "runtime_database_in_archive": false,
+  "seeded_documents": 48,
+  "query": "Which council supervises the team managing Atlas40 Service?",
+  "expected_answer": "Assurance40 Council",
+  "answer_verified": true,
+  "tests_output": "..............................................................           [100%]\n62 passed in 1.64s",
+  "environment_note": "Used the installed build-environment dependencies in a different directory; not a fresh network installation or a remote GitHub run."
+}

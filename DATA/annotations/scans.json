@@ -1,0 +1,26 @@
+[
+  {
+    "file": "workflow-45-scan.pdf",
+    "source": "workflow-45.pdf",
+    "condition": "clean",
+    "independent_document": false
+  },
+  {
+    "file": "workflow-46-scan.pdf",
+    "source": "workflow-46.pdf",
+    "condition": "blur_0.55_rotation_0.5deg",
+    "independent_document": false
+  },
+  {
+    "file": "workflow-47-scan.pdf",
+    "source": "workflow-47.pdf",
+    "condition": "clean",
+    "independent_document": false
+  },
+  {
+    "file": "workflow-48-scan.pdf",
+    "source": "workflow-48.pdf",
+    "condition": "blur_0.55_rotation_0.5deg",
+    "independent_document": false
+  }
+]

@@ -1,0 +1,196 @@
+{
+  "run_utc": "2026-11-09T20:17:57.280978+00:00",
+  "seed": 573,
+  "data": {
+    "source": "original, AI-assisted synthetic workflow benchmark; not public or team-supplied data",
+    "documents": 48,
+    "pages": 48,
+    "raw_bytes": 106945,
+    "splits": {
+      "train": 30,
+      "dev": 9,
+      "test": 9
+    },
+    "relation_examples": 480,
+    "test_examples": 90,
+    "stress_examples": 72,
+    "queries": 63,
+    "answerable_queries": 54,
+    "test_document_groups": 9,
+    "scan_pages": 4
+  },
+  "relation_classification": {
+    "rules": {
+      "test": {
+        "accuracy": 0.6,
+        "macro_f1": 0.6465201465201466,
+        "n": 90
+      },
+      "paraphrase_stress": {
+        "accuracy": 0.0,
+        "macro_f1": 0.0,
+        "n": 72
+      }
+    },
+    "logistic": {
+      "test": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "n": 90
+      },
+      "paraphrase_stress": {
+        "accuracy": 0.875,
+        "macro_f1": 0.8333333333333333,
+        "n": 72
+      }
+    },
+    "neural": {
+      "test": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "n": 90
+      },
+      "paraphrase_stress": {
+        "accuracy": 0.75,
+        "macro_f1": 0.7083333333333333,
+        "n": 72
+      }
+    }
+  },
+  "triples": {
+    "rules": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "tp": 36,
+      "fp": 0,
+      "fn": 36,
+      "seconds_all_documents": 0.007099891000052594,
+      "gold_test_triples": 72
+    },
+    "logistic": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 72,
+      "fp": 0,
+      "fn": 0,
+      "seconds_all_documents": 0.09580598600041412,
+      "gold_test_triples": 72
+    },
+    "neural": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 72,
+      "fp": 0,
+      "fn": 0,
+      "seconds_all_documents": 0.217716012999972,
+      "gold_test_triples": 72
+    }
+  },
+  "retrieval": {
+    "lexical": {
+      "recall_at_1": 0.35185185185185186,
+      "recall_at_5": 0.7407407407407407,
+      "mrr_at_5": 0.6185185185185185,
+      "ndcg_at_5": 0.5759371001208807,
+      "complete_evidence_at_5": 0.5925925925925926,
+      "recall_at_5_ci95_document_bootstrap": [
+        0.6666666666666666,
+        0.8055555555555556
+      ],
+      "latency_median_ms": 12.437805499985188,
+      "latency_p95_ms": 13.664129449853135,
+      "n": 54,
+      "by_kind": {
+        "literal": {
+          "recall_at_5": 1.0,
+          "mrr_at_5": 0.6796296296296297,
+          "complete_evidence_at_5": 1.0
+        },
+        "paraphrase": {
+          "recall_at_5": 0.7777777777777778,
+          "mrr_at_5": 0.34259259259259256,
+          "complete_evidence_at_5": 0.7777777777777778
+        },
+        "two_hop": {
+          "recall_at_5": 0.4444444444444444,
+          "mrr_at_5": 0.8333333333333334,
+          "complete_evidence_at_5": 0.0
+        }
+      }
+    },
+    "graph": {
+      "recall_at_1": 0.8333333333333334,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 1.0,
+      "ndcg_at_5": 1.0,
+      "complete_evidence_at_5": 1.0,
+      "recall_at_5_ci95_document_bootstrap": [
+        1.0,
+        1.0
+      ],
+      "latency_median_ms": 13.147685499916406,
+      "latency_p95_ms": 15.811653500099965,
+      "n": 54,
+      "by_kind": {
+        "literal": {
+          "recall_at_5": 1.0,
+          "mrr_at_5": 1.0,
+          "complete_evidence_at_5": 1.0
+        },
+        "paraphrase": {
+          "recall_at_5": 1.0,
+          "mrr_at_5": 1.0,
+          "complete_evidence_at_5": 1.0
+        },
+        "two_hop": {
+          "recall_at_5": 1.0,
+          "mrr_at_5": 1.0,
+          "complete_evidence_at_5": 1.0
+        }
+      }
+    }
+  },
+  "ocr": {
+    "pages": 4,
+    "all_native_empty": true,
+    "character_error_rate": 0.03800874537504204,
+    "word_error_rate": 0.03722084367245657,
+    "seconds_batch": 2.1032925509998677,
+    "scope": "4 image-only derived pages; one Tesseract batch; whitespace normalized; case and punctuation retained"
+  },
+  "optional_integrations": {
+    "ollama": "adapter included; live service NOT evaluated",
+    "neo4j": "parameterized exporter included; live service NOT evaluated",
+    "docling": "converter included; NOT evaluated",
+    "sentence_transformers": "not used; package/model download unavailable"
+  },
+  "limitations": [
+    "Synthetic closed-schema pilot, not a real-world accuracy benchmark.",
+    "Train/dev/test entities are disjoint but normal-test phrasing templates overlap training.",
+    "Stress paraphrases are template-disjoint; only 72 positive statements and no new entity schema.",
+    "Question planning uses handcrafted schema rules; this is not unrestricted natural-language reasoning.",
+    "Confidence scores are not calibrated probabilities of correctness.",
+    "Four derived scan pages are a smoke test, not four independent documents.",
+    "No human usability study or production security review was performed."
+  ],
+  "native_extraction": {
+    "seconds": 0.10603927900001509,
+    "chunks": 720,
+    "all_gold_sentences_recovered": true
+  },
+  "graph": {
+    "nodes": 432,
+    "edges": 384,
+    "predicates": 8
+  },
+  "answers": {
+    "exact_match": 1.0,
+    "n_answerable": 54,
+    "unanswerable_abstention": 1.0,
+    "n_unanswerable": 9,
+    "generation": "deterministic evidence-path endpoint; no LLM answer generation"
+  }
+}

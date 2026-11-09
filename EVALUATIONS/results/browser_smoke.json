@@ -1,0 +1,19 @@
+{
+  "checks": [
+    "Overview displays 48 seeded documents",
+    "Document inspector shows original PDF and eight extracted relationships",
+    "Graph displays nine focused entities and an evidence inspector",
+    "Two-hop question returns Assurance40 Council with two evidence links",
+    "Unsupported budget question explicitly abstains",
+    "Evaluation view shows measured stress-test results",
+    "No browser JavaScript exceptions during the smoke test"
+  ],
+  "passed": 7,
+  "javascript_errors": [],
+  "viewport": [
+    1536,
+    1040
+  ],
+  "transport": "local API bridge (browser direct-network navigation restricted)",
+  "screenshots": "actual running FastAPI application; not mockups"
+}
